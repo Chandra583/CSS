@@ -1,4 +1,27 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(223, 223, 235);
+    background-image: url('profile.jpg');
+    background-size: cover;
+}
 
-* {
-background-color: aqua;
+body{
+    background-image: url('profile.jpg');
+   
+}
+.red
+{
+    background-color: red;
+    border: 3px solid rebeccapurple;
+    color: aliceblue;
+    margin-bottom: 10px;
+    
+}
+
+.green
+{
+    background-color: green;
+    border: 3px solid rgb(120, 126, 42);
+    color: tomato;
 }
