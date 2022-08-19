@@ -1,27 +1,38 @@
 *{
+    margin:0%;
     padding: 0%;
-    margin: 0%;
-    background-color: rgb(223, 223, 235);
-    background-image: url('profile.jpg');
-    background-size: cover;
+    box-sizing: border-box;
 }
 
-body{
-    background-image: url('profile.jpg');
-   
+header{
+    height: 50px;
+    width: 100%;
+    /* margin: 20px; */
+    background: red;
+    border: 3px solid black;
 }
-.red
-{
-    background-color: red;
-    border: 3px solid rebeccapurple;
-    color: aliceblue;
-    margin-bottom: 10px;
-    
+li {
+    display: flexbox;
+    display: inline;
+    padding: 10px;
+    /* text-align:a center;
+    justify-content: center; */
+
+
 }
 
-.green
+main{
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb(56, 56, 138);
+    color: wheat;
+    margin: 10px 0px 10px 0px;
+    border: 4px solid rgb(240, 59, 14);
+}
+
+footer
 {
-    background-color: green;
-    border: 3px solid rgb(120, 126, 42);
-    color: tomato;
+    background-color: blueviolet;
+    color: azure;
+    text-align: center;
 }
